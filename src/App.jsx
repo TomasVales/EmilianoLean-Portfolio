@@ -175,11 +175,12 @@ const App = () => {
             {/* Columna izquierda - Foto y datos rápidos */}
             <div className="w-full md:w-1/3 space-y-6">
 
-              <div className="aspect-square rounded-sm border border-[#2a2d4a] overflow-hidden group">
+              <div className="aspect-[3/4] rounded-xl border border-[#2a2d4a] overflow-hidden group shadow-md shadow-black/20 transition-transform duration-300 hover:scale-105">
+
                 <img
                   src="/EmilianoLean.jpeg"
                   alt="Emiliano Lean - Marketing Analytics Specialist"
-                  className="w-full h-full object-cover grayscale-[10%] group-hover:grayscale-0 transition-all duration-500"
+                  className="w-full h-full object-cover object-center grayscale-[10%] group-hover:grayscale-0 transition-all duration-500"
                 />
               </div>
 
